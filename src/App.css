@@ -1,0 +1,61 @@
+
+/* 
+img.ant-upload-list-item-image {
+  margin-top: -150px!important;
+} */
+.ant-tooltip-hidden {
+  color:#fff
+}
+.ant-tooltip-inner {
+  display: none!important;
+}
+div#imagePreview {
+  width: 211px;
+    height: 100%;
+    margin-top: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.avatar-upload .avatar-preview {
+  width: 100%;
+  height: 161PX;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+}
+.avatar-upload .avatar-preview > div {
+  width:100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container .react-datepicker-wrapper {
+  margin: 12px 0;
+  width: 100%;
+}
+
+.input-container .react-datepicker-wrapper input {
+  padding: 4px 12px;
+}
+
+.summary {
+  font-size: 18px;
+}
